@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462FF1921ED519B8009D682B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462FF1911ED519B8009D682B /* AppDelegate.swift */; };
+		462FF1941ED519B8009D682B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462FF1931ED519B8009D682B /* ViewController.swift */; };
+		462FF1971ED519B8009D682B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462FF1951ED519B8009D682B /* Main.storyboard */; };
+		462FF1991ED519B8009D682B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462FF1981ED519B8009D682B /* Assets.xcassets */; };
+		462FF19C1ED519B8009D682B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462FF19A1ED519B8009D682B /* LaunchScreen.storyboard */; };
+		462FF1A71ED519B9009D682B /* ZDefromationButtonSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462FF1A61ED519B9009D682B /* ZDefromationButtonSwiftTests.swift */; };
+		462FF1B21ED51A5F009D682B /* ZMozMaterialDesignSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462FF1B11ED51A5F009D682B /* ZMozMaterialDesignSpinner.swift */; };
+		46AAD6101ED52B5800D3C657 /* ZDeformationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AAD60F1ED52B5800D3C657 /* ZDeformationButton.swift */; };
+		46AAD6161ED530AA00D3C657 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 46AAD6151ED530AA00D3C657 /* logo@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		462FF1A31ED519B9009D682B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462FF1861ED519B8009D682B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462FF18D1ED519B8009D682B;
+			remoteInfo = ZDefromationButtonSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		462FF18E1ED519B8009D682B /* ZDefromationButtonSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZDefromationButtonSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		462FF1911ED519B8009D682B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		462FF1931ED519B8009D682B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		462FF1961ED519B8009D682B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462FF1981ED519B8009D682B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462FF19B1ED519B8009D682B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		462FF19D1ED519B8009D682B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462FF1A21ED519B9009D682B /* ZDefromationButtonSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDefromationButtonSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		462FF1A61ED519B9009D682B /* ZDefromationButtonSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZDefromationButtonSwiftTests.swift; sourceTree = "<group>"; };
+		462FF1A81ED519B9009D682B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462FF1B11ED51A5F009D682B /* ZMozMaterialDesignSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZMozMaterialDesignSpinner.swift; sourceTree = "<group>"; };
+		46AAD60F1ED52B5800D3C657 /* ZDeformationButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDeformationButton.swift; sourceTree = "<group>"; };
+		46AAD6151ED530AA00D3C657 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462FF18B1ED519B8009D682B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462FF19F1ED519B9009D682B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462FF1851ED519B8009D682B = {
+			isa = PBXGroup;
+			children = (
+				462FF1901ED519B8009D682B /* ZDefromationButtonSwift */,
+				462FF1A51ED519B9009D682B /* ZDefromationButtonSwiftTests */,
+				462FF18F1ED519B8009D682B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462FF18F1ED519B8009D682B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462FF18E1ED519B8009D682B /* ZDefromationButtonSwift.app */,
+				462FF1A21ED519B9009D682B /* ZDefromationButtonSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462FF1901ED519B8009D682B /* ZDefromationButtonSwift */ = {
+			isa = PBXGroup;
+			children = (
+				462FF1B11ED51A5F009D682B /* ZMozMaterialDesignSpinner.swift */,
+				46AAD60F1ED52B5800D3C657 /* ZDeformationButton.swift */,
+				46AAD6151ED530AA00D3C657 /* logo@2x.png */,
+				462FF1911ED519B8009D682B /* AppDelegate.swift */,
+				462FF1931ED519B8009D682B /* ViewController.swift */,
+				462FF1951ED519B8009D682B /* Main.storyboard */,
+				462FF1981ED519B8009D682B /* Assets.xcassets */,
+				462FF19A1ED519B8009D682B /* LaunchScreen.storyboard */,
+				462FF19D1ED519B8009D682B /* Info.plist */,
+			);
+			path = ZDefromationButtonSwift;
+			sourceTree = "<group>";
+		};
+		462FF1A51ED519B9009D682B /* ZDefromationButtonSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				462FF1A61ED519B9009D682B /* ZDefromationButtonSwiftTests.swift */,
+				462FF1A81ED519B9009D682B /* Info.plist */,
+			);
+			path = ZDefromationButtonSwiftTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462FF18D1ED519B8009D682B /* ZDefromationButtonSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462FF1AB1ED519B9009D682B /* Build configuration list for PBXNativeTarget "ZDefromationButtonSwift" */;
+			buildPhases = (
+				462FF18A1ED519B8009D682B /* Sources */,
+				462FF18B1ED519B8009D682B /* Frameworks */,
+				462FF18C1ED519B8009D682B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZDefromationButtonSwift;
+			productName = ZDefromationButtonSwift;
+			productReference = 462FF18E1ED519B8009D682B /* ZDefromationButtonSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		462FF1A11ED519B9009D682B /* ZDefromationButtonSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462FF1AE1ED519B9009D682B /* Build configuration list for PBXNativeTarget "ZDefromationButtonSwiftTests" */;
+			buildPhases = (
+				462FF19E1ED519B9009D682B /* Sources */,
+				462FF19F1ED519B9009D682B /* Frameworks */,
+				462FF1A01ED519B9009D682B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				462FF1A41ED519B9009D682B /* PBXTargetDependency */,
+			);
+			name = ZDefromationButtonSwiftTests;
+			productName = ZDefromationButtonSwiftTests;
+			productReference = 462FF1A21ED519B9009D682B /* ZDefromationButtonSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462FF1861ED519B8009D682B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = freeTime.com;
+				TargetAttributes = {
+					462FF18D1ED519B8009D682B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					462FF1A11ED519B9009D682B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 462FF18D1ED519B8009D682B;
+					};
+				};
+			};
+			buildConfigurationList = 462FF1891ED519B8009D682B /* Build configuration list for PBXProject "ZDefromationButtonSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462FF1851ED519B8009D682B;
+			productRefGroup = 462FF18F1ED519B8009D682B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462FF18D1ED519B8009D682B /* ZDefromationButtonSwift */,
+				462FF1A11ED519B9009D682B /* ZDefromationButtonSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462FF18C1ED519B8009D682B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462FF19C1ED519B8009D682B /* LaunchScreen.storyboard in Resources */,
+				462FF1991ED519B8009D682B /* Assets.xcassets in Resources */,
+				462FF1971ED519B8009D682B /* Main.storyboard in Resources */,
+				46AAD6161ED530AA00D3C657 /* logo@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462FF1A01ED519B9009D682B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462FF18A1ED519B8009D682B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462FF1941ED519B8009D682B /* ViewController.swift in Sources */,
+				46AAD6101ED52B5800D3C657 /* ZDeformationButton.swift in Sources */,
+				462FF1921ED519B8009D682B /* AppDelegate.swift in Sources */,
+				462FF1B21ED51A5F009D682B /* ZMozMaterialDesignSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462FF19E1ED519B9009D682B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462FF1A71ED519B9009D682B /* ZDefromationButtonSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		462FF1A41ED519B9009D682B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462FF18D1ED519B8009D682B /* ZDefromationButtonSwift */;
+			targetProxy = 462FF1A31ED519B9009D682B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		462FF1951ED519B8009D682B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462FF1961ED519B8009D682B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462FF19A1ED519B8009D682B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462FF19B1ED519B8009D682B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462FF1A91ED519B9009D682B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		462FF1AA1ED519B9009D682B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462FF1AC1ED519B9009D682B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDefromationButtonSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organizationId.ZDefromationButtonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		462FF1AD1ED519B9009D682B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZDefromationButtonSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organizationId.ZDefromationButtonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		462FF1AF1ED519B9009D682B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDefromationButtonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organizationId.ZDefromationButtonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDefromationButtonSwift.app/ZDefromationButtonSwift";
+			};
+			name = Debug;
+		};
+		462FF1B01ED519B9009D682B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZDefromationButtonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = organizationId.ZDefromationButtonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZDefromationButtonSwift.app/ZDefromationButtonSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462FF1891ED519B8009D682B /* Build configuration list for PBXProject "ZDefromationButtonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462FF1A91ED519B9009D682B /* Debug */,
+				462FF1AA1ED519B9009D682B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462FF1AB1ED519B9009D682B /* Build configuration list for PBXNativeTarget "ZDefromationButtonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462FF1AC1ED519B9009D682B /* Debug */,
+				462FF1AD1ED519B9009D682B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462FF1AE1ED519B9009D682B /* Build configuration list for PBXNativeTarget "ZDefromationButtonSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462FF1AF1ED519B9009D682B /* Debug */,
+				462FF1B01ED519B9009D682B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462FF1861ED519B8009D682B /* Project object */;
+}
